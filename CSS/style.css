@@ -1,0 +1,240 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+header{
+    height: 70px;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+
+header p{
+    font-size: 2em;
+    color: aqua;
+    padding: 15px;
+}
+
+.logo{
+    /* border: 1px solid red; */
+    width: 20%;
+}
+
+.menu{
+    /* border: 1px solid red; */
+    width: 70%;
+    display: flex;
+    justify-content: space-around;
+    
+
+}
+
+.menu a{
+    text-decoration: none;
+    font-size: 1em;
+    color: gray;
+    padding: 20px;
+    margin-right: 20px;
+}
+
+
+/****** SECCIONES ******/
+section{
+    width: 100%;
+    height: 100vh;
+}
+
+            /*SECCION 1*/
+#section1{
+    /* border: 1px solid blue; */
+    width: 100%;
+    background-image: url(../IMG/fondo.png);
+    background-repeat: none;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.textoimg{
+    /* border: 1px solid blue; */
+    color: white;
+    position: relative;
+    width: 700px;
+}
+
+.textoimg h3{
+    text-align: center;
+    font-size: 2.5em;
+    background-color: rgba(128, 128, 128, 0.5);
+}
+
+.textoimg p{
+    background-color: rgba(128, 128, 128, 0.5);
+}
+
+            /*SECCION 2*/
+#section2{
+    /* border: 1px solid blue; */
+    height: 100%;
+}
+
+.contenedor{
+    /* border: 1px solid green; */
+    width: 100%;
+    height: 50%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.cajas{
+    /* border: 1px solid red; */
+    height: 350px;
+    width: 30%;
+    color: gray;
+    display: flex;
+    flex-direction: column;
+    margin: 40px;
+}
+
+.cajas img{
+    width: 80%;
+    height: 100%;
+}
+
+.cajas h3{
+    font-size: 2.5em;
+    margin-top: 5px;
+    padding-bottom: 25px;
+    padding-top: 40px;
+    font-weight: bold;
+}
+
+.boton{
+    text-decoration: none;
+    border-radius: 5px;
+    background-color: aqua;
+    color: white;
+    text-align: center;
+    padding: 5px;
+    width: 150px;
+    margin-top: 10px;
+}
+
+.contenedor2{
+    /* border: 2px solid violet; */
+    width: 100%;
+    height: 50%;
+    display: flex;
+    margin-top: 50px;
+}
+
+.cajas2{
+    display: flex;
+    justify-content: space-around;
+    /* border: 1px solid red; */
+    width: 100%;
+    height: 450px;
+}
+
+.img{
+    height: 200px;
+    width: 400px;
+}
+.cajas2 img{
+    width: 100%;
+    height: 100%;
+}
+
+.textoimg2{
+    /* border: 1px solid green; */
+    color: grey;
+}
+
+.textoimg2 h3{
+    color: black;
+    padding-bottom: 5px;
+}
+
+.star{
+    padding-top: 10px;
+    color: rgb(255, 187, 0);
+}
+
+.star p{
+    display: inline-block;
+    color: grey;
+    margin-left: 190px;
+    right: 0px;
+}
+
+#section3{
+    width: 100%;
+    height: 100%;
+}
+
+.mapa{
+    /* border: 1px solid rgb(29, 3, 0); */
+    height: 300px;
+    margin-bottom: 50px;
+}
+
+.mapa img{
+    width: 100%;
+    height: 100%;
+}
+
+.fotos{
+    display: inline-block;
+    padding-left: 30px;
+    margin-left: 50px;
+    width: 300px;
+    height: 200px;
+    position: relative;
+    margin-bottom: 50px;
+}
+
+.fotos img{
+    width: 100%;
+    height: 100%;
+}
+
+.texto3{
+    color: white;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    margin-top: 10px;
+    margin-right: 10px;    
+}
+
+.texto3 i{
+    margin-top: 5px;
+}
+
+.texto3 p{
+    color: white;
+    margin-top: 10px;
+    margin-left: 30px;
+}
+
+.texto3 b{
+    color: white;
+    margin-top: 35px;
+    margin-left: 60px;
+}
+
+.texto4{
+    color: white;
+    position: absolute;
+    bottom: 10px;
+    left: 45px;
+    font-size: 1.5em;
+}
+
+.texto4 p{
+    bottom: 35px;
+    left: 45px;
+    font-size: 15px;
+}
